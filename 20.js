@@ -56,7 +56,7 @@ function minNotas(valor){
         console.log(`Cedulas ultilizadas : R$1: ${result[result.length - 1]}`)
     }
 }
-minNotas(153)
+minNotas(1503)
 
 //Solução da lista 
 

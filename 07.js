@@ -19,7 +19,7 @@ function equacao(a, b, c){
     }
     else return console.log(`X1 = ${x1}, X2 = ${x2}`)
 }
-equacao(2,0,-14)
+equacao(2,10,-14)
 
 //Soluçao da lista
 

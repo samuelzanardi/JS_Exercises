@@ -21,10 +21,10 @@ function planoSaude(idade){
 }
 
 function tabelaIdade(idade){
-    if (idade < 10){
+    if (idade < 10 && idade > 0){
         return 'tabela1'
     }
-    else if (idade > 10 && idade < 30){
+    else if (idade >= 10 && idade < 30){
         return 'tabela2'
     }
     else if (idade > 30 && idade <= 60){
@@ -43,7 +43,7 @@ console.log(planoSaude('a'))
 
 //Solução da lista 
 
-/* function calcularPreco (idade) {
+ /*function calcularPreco (idade) {
     if(idade < 10){
         return 180
     } else if(idade < 30) {
@@ -55,7 +55,7 @@ console.log(planoSaude('a'))
     }
 }
 
-console.log(calcularPreco(8));
+console.log(calcularPreco(9));
 console.log(calcularPreco(15));
 console.log(calcularPreco(35));
 console.log(calcularPreco(52));
